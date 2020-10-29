@@ -49,7 +49,7 @@ class IntroSliderActivity : AppCompatActivity() {
                     tvNext.text = "Next"
                 } else {
                     tvSkip.visibility = View.GONE
-                    tvNext.text = "Get Started"
+                    tvNext.text = "Let's Go!"
                 }
             }
         })
