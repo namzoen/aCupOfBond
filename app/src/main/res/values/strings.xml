@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">A Cup of Bond</string>
+    <string name="text_intro1">Head One</string>
+    <string name="text_intro2">Head Two</string>
+    <string name="text_intro3">Head Three</string>
+    <string name="desc_intro1">Description One</string>
+    <string name="desc_intro2">Description Two</string>
+    <string name="desc_intro3">Description Three</string>
+</resources>
