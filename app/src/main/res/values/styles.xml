@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
     <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <item name="colorPrimary">@color/black</item>
         <item name="colorPrimaryDark">@android:color/transparent</item>
         <item name="colorAccent">@color/white</item>
+    </style>
+
+    <style name="persona_jam">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">#FFFFFF</item>
     </style>
 </resources>

@@ -1,11 +1,22 @@
 <resources>
     <string name="app_name">A Cup of Bond</string>
-    <string name="text_intro1">Head One</string>
-    <string name="text_intro2">Head Two</string>
-    <string name="text_intro3">Head Three</string>
+    <string name="text_intro1">PERSONA JAM</string>
+    <string name="text_intro2">CHAT &amp; VIDEO CALL</string>
+    <string name="text_intro3">MAKE A RUN</string>
     <string name="desc_intro1">Description One</string>
     <string name="desc_intro2">Description Two</string>
     <string name="desc_intro3">Description Three</string>
-    <string name="sign_up">Sign Up</string>
     <string name="sign_in">Sign In</string>
+    <string name="log_in_with_google">LOG IN WITH GOOGLE</string>
+    <string name="log_in_with_facebook">LOG IN WITH FACEBOOK</string>
+    <string name="log_in_with_phone_number">LOG IN WITH PHONE NUMBER</string>
+    <string name="trouble_signin">Trouble logging in?</string>
+    <string name="askAccount">Don\'t have an account?</string>
+    <string name="sign_up">Sign Up!</string>
+    <string name="password">Password</string>
+    <string name="insertEmail">Insert your email…</string>
+    <string name="insertPassword">Insert your password…</string>
+    <string name="email">Email</string>
+    <string name="cupsLogo">A Cup of Bond\'s Logo</string>
+    <string name="sign_in_option_label">OR TRY WITH OTHER</string>
 </resources>

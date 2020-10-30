@@ -45,19 +45,11 @@ class IntroSliderActivity : AppCompatActivity() {
                 indicatorLayout.selectCurrentPosition(position)
 
                 if (position < fragmentList.lastIndex) {
-                    tvSkip.visibility = View.VISIBLE
                     tvNext.text = "Next"
-                } else {
-                    tvSkip.visibility = View.GONE
-                    tvNext.text = "Let's Go!"
                 }
             }
         })
 
-        tvSkip.setOnClickListener {
-            startActivity(Intent(this, MainActivity::class.java))
-            finish()
-        }
 
         tvNext.setOnClickListener {
             val position = vpIntroSlider.currentItem
@@ -65,7 +57,7 @@ class IntroSliderActivity : AppCompatActivity() {
             if (position < fragmentList.lastIndex) {
                 vpIntroSlider.currentItem = position + 1
             } else {
-                startActivity(Intent(this, MainActivity::class.java))
+                startActivity(Intent(this, SignInActivity::class.java))
                 finish()
             }
         }

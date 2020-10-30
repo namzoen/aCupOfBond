@@ -1,36 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:padding="30dp"
-    android:gravity="center"
-    android:background="#EAEFD3">
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:gravity="center"
-        android:text="@string/text_intro1"
-        android:textColor="@android:color/white"
-        android:textSize="24sp"
-        android:textStyle="bold"
-    />
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/landing"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/intro_one">
 
     <ImageView
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-    />
+        android:id="@+id/popcorn_one"
+        android:layout_width="243dp"
+        android:layout_height="268dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="-86dp"
+        android:layout_marginTop="-36dp"
+        android:rotation="50"
+        android:rotationY="0"
+        android:src="@drawable/intro_elements_six" />
 
     <TextView
-        android:layout_width="wrap_content"
+        android:id="@+id/persona_jam"
+        android:layout_width="207dp"
         android:layout_height="wrap_content"
-        android:text="@string/desc_intro1"
-        android:textColor="@android:color/white"
-        android:textSize="16sp"
-        android:gravity="center"
-        android:layout_marginTop="20dp"
-        />
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="78dp"
+        android:layout_marginTop="196dp"
+        android:fontFamily="@font/raleway"
+        android:gravity="top"
+        android:text="@string/text_intro1"
+        android:textAppearance="@style/persona_jam" />
 
-</LinearLayout>
+    <ImageView
+        android:id="@+id/intro_image_one"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="79dp"
+        android:layout_marginTop="235dp"
+        android:background="@drawable/intro_elements_eight" />
+
+    <ImageView
+        android:id="@+id/cookies_one"
+        android:layout_width="297dp"
+        android:layout_height="193dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="193dp"
+        android:layout_marginTop="564dp"
+        android:layout_marginBottom="-105dp"
+        android:background="@drawable/intro_elements_seven" />
+</RelativeLayout>
