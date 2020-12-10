@@ -3,51 +3,11 @@
     android:id="@+id/landing"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/intro_three">
+    android:background="#582349">
 
     <ImageView
-        android:id="@+id/popcorn_one"
-        android:layout_width="243dp"
-        android:layout_height="268dp"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginLeft="-86dp"
-        android:layout_marginTop="-36dp"
-        android:rotation="0"
-        android:rotationY="0"
-        android:src="@drawable/intro_elements_one" />
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/introslider3" />
 
-    <TextView
-        android:id="@+id/persona_jam"
-        android:layout_width="207dp"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginLeft="78dp"
-        android:layout_marginTop="196dp"
-        android:fontFamily="@font/raleway"
-        android:gravity="top"
-        android:text="@string/text_intro3"
-        android:textAppearance="@style/persona_jam" />
-
-    <ImageView
-        android:id="@+id/intro_image_one"
-        android:layout_width="250dp"
-        android:layout_height="250dp"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginLeft="79dp"
-        android:layout_marginTop="235dp"
-        android:background="@drawable/intro_elements_three" />
-
-    <ImageView
-        android:id="@+id/cookies_one"
-        android:layout_width="297dp"
-        android:layout_height="193dp"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginLeft="193dp"
-        android:layout_marginTop="564dp"
-        android:layout_marginBottom="-105dp"
-        android:background="@drawable/intro_elements_two" />
 </RelativeLayout>

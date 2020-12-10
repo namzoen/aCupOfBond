@@ -1,8 +1,5 @@
 <resources>
     <string name="app_name">A Cup of Bond</string>
-    <string name="text_intro1">PERSONA JAM</string>
-    <string name="text_intro2">CHAT &amp; VIDEO CALL</string>
-    <string name="text_intro3">MAKE A RUN</string>
     <string name="sign_in">Sign In</string>
     <string name="log_in_with_google">Log in with Google</string>
     <string name="log_in_with_facebook">Log in with Facebook</string>
@@ -12,9 +9,8 @@
     <string name="sign_up">Sign Up!</string>
     <string name="sign_up2">Sign Up</string>
     <string name="password">Password</string>
-    <string name="insertEmail">Insert your email…</string>
+    <string name="insertEmail">Insert your email address…</string>
     <string name="insertPassword">Insert your password…</string>
-    <string name="email">Email Address</string>
     <string name="cupsLogo">A Cup of Bond\'s Logo</string>
     <string name="sign_in_option_label">Or try with other</string>
     <string name="account_recovery">Account Recovery</string>
@@ -24,5 +20,6 @@
     <string name="signup_google">Sign up with Google</string>
     <string name="signup_facebook">Sign up with Facebook</string>
     <string name="next">Next</string>
-    <string name="back_button">Back button</string>
+    <string name="app_version">Version 1.0</string>
+    <string name="email_address">Email Address</string>
 </resources>
