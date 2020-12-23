@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@color/purple_500"
+    android:gravity="center"
+    tools:context=".PersonaJamActivity">
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="720dp"
+        android:layout_height="610dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="-1dp"
+        android:layout_marginTop="-30dp"
+        android:background="@drawable/rectangle" />
+
+    <Button
+        android:id="@+id/nextBtn"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="335dp"
+        android:layout_marginTop="630dp"
+        android:text=">>"
+        android:gravity="center_horizontal"
+        android:textColor="@color/white"
+        android:fontFamily="@font/raleway"
+        android:textSize="28sp"
+        android:background="@drawable/text_input_box" />
+
+    <Button
+        android:id="@+id/backBtn"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="5dp"
+        android:text="<"
+        android:gravity="center_horizontal"
+        android:textColor="@color/white"
+        android:fontFamily="@font/raleway"
+        android:textSize="28sp"
+        android:background="@drawable/text_input_box" />
+
+    <TextView
+        android:id="@+id/my_name"
+        android:layout_width="465dp"
+        android:layout_height="73dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="80dp"
+        android:textColor="#582349"
+        android:fontFamily="@font/raleway"
+        android:text="PERSONA JAM"
+        android:gravity="left"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="418dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="130dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="30dp"
+        android:fontFamily="@font/raleway"
+        android:hint="@string/persona"
+        android:gravity="center_horizontal|left"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:textSize="14sp"
+        android:textColorHint="@color/purple_500" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginTop="200dp"
+        android:text="ENFJ"
+        android:textColor="@color/white"
+        android:fontFamily="@font/raleway"
+        android:gravity="center_horizontal|center"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:background="@drawable/click_box"
+        android:paddingBottom="3dp" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="260dp"
+        android:layout_marginRight="100dp"
+        android:background="@drawable/click_box"
+        android:fontFamily="@font/raleway"
+        android:gravity="center_horizontal|center"
+        android:paddingBottom="3dp"
+        android:text="ENTP"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="320dp"
+        android:layout_marginRight="100dp"
+        android:background="@drawable/click_box"
+        android:fontFamily="@font/raleway"
+        android:gravity="center_horizontal|center"
+        android:paddingBottom="3dp"
+        android:text="ESTJ"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="380dp"
+        android:layout_marginRight="100dp"
+        android:background="@drawable/click_box"
+        android:fontFamily="@font/raleway"
+        android:gravity="center_horizontal|center"
+        android:paddingBottom="3dp"
+        android:text="INTJ"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="440dp"
+        android:layout_marginRight="100dp"
+        android:background="@drawable/click_box"
+        android:fontFamily="@font/raleway"
+        android:gravity="center_horizontal|center"
+        android:paddingBottom="3dp"
+        android:text="ISFJ"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="155dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginRight="100dp"
+        android:background="@drawable/click_box"
+        android:fontFamily="@font/raleway"
+        android:gravity="center_horizontal|center"
+        android:paddingBottom="3dp"
+        android:text="ENFP"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="155dp"
+        android:layout_marginTop="260dp"
+        android:layout_marginRight="100dp"
+        android:background="@drawable/click_box"
+        android:fontFamily="@font/raleway"
+        android:gravity="center_horizontal|center"
+        android:paddingBottom="3dp"
+        android:text="ESFJ"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="155dp"
+        android:layout_marginTop="320dp"
+        android:layout_marginRight="100dp"
+        android:background="@drawable/click_box"
+        android:fontFamily="@font/raleway"
+        android:gravity="center_horizontal|center"
+        android:paddingBottom="3dp"
+        android:text="ESTP"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="155dp"
+        android:layout_marginTop="380dp"
+        android:layout_marginRight="100dp"
+        android:background="@drawable/click_box"
+        android:fontFamily="@font/raleway"
+        android:gravity="center_horizontal|center"
+        android:paddingBottom="3dp"
+        android:text="INFP"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="155dp"
+        android:layout_marginTop="440dp"
+        android:layout_marginRight="100dp"
+        android:background="@drawable/click_box"
+        android:fontFamily="@font/raleway"
+        android:gravity="center_horizontal|center"
+        android:paddingBottom="3dp"
+        android:text="ISFP"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="155dp"
+        android:layout_marginTop="500dp"
+        android:layout_marginRight="100dp"
+        android:background="@drawable/click_box"
+        android:fontFamily="@font/raleway"
+        android:gravity="center_horizontal|center"
+        android:paddingBottom="3dp"
+        android:text="ISTP"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="280dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/click_box"
+        android:fontFamily="@font/raleway"
+        android:gravity="center_horizontal|center"
+        android:paddingBottom="3dp"
+        android:text="ENTJ"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="280dp"
+        android:layout_marginTop="260dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/click_box"
+        android:fontFamily="@font/raleway"
+        android:gravity="center_horizontal|center"
+        android:paddingBottom="3dp"
+        android:text="ESFP"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="280dp"
+        android:layout_marginTop="320dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/click_box"
+        android:fontFamily="@font/raleway"
+        android:gravity="center_horizontal|center"
+        android:paddingBottom="3dp"
+        android:text="INTP"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="280dp"
+        android:layout_marginTop="380dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/click_box"
+        android:fontFamily="@font/raleway"
+        android:gravity="center_horizontal|center"
+        android:paddingBottom="3dp"
+        android:text="INFJ"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="280dp"
+        android:layout_marginTop="440dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/click_box"
+        android:fontFamily="@font/raleway"
+        android:gravity="center_horizontal|center"
+        android:paddingBottom="3dp"
+        android:text="ISTJ"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

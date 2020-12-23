@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@color/purple_500"
+    android:gravity="center"
+    tools:context=".NameActivity">
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="720dp"
+        android:layout_height="610dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="-1dp"
+        android:layout_marginTop="-30dp"
+        android:background="@drawable/rectangle" />
+
+    <Button
+        android:id="@+id/nextBtn"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="335dp"
+        android:layout_marginTop="630dp"
+        android:text=">>"
+        android:gravity="center_horizontal"
+        android:textColor="@color/white"
+        android:fontFamily="@font/raleway"
+        android:textSize="28sp"
+        android:background="@drawable/text_input_box" />
+
+    <Button
+        android:id="@+id/backBtn"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="5dp"
+        android:text="<"
+        android:gravity="center_horizontal"
+        android:textColor="@color/white"
+        android:fontFamily="@font/raleway"
+        android:textSize="28sp"
+        android:background="@drawable/text_input_box" />
+
+    <TextView
+        android:id="@+id/my_name"
+        android:layout_width="465dp"
+        android:layout_height="73dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="80dp"
+        android:textColor="#582349"
+        android:fontFamily="@font/raleway"
+        android:text="My name is ..."
+        android:gravity="left"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/inputname"
+        android:layout_width="418dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="160dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="30dp"
+        android:fontFamily="@font/raleway"
+        android:hint="@string/name"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:textSize="25sp"
+        android:textColorHint="@color/grey" />
+
+    <View
+        android:id="@+id/line"
+        android:layout_width="418dp"
+        android:layout_height="2dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="200dp"
+        android:background="#582349" />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="418dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="30dp"
+        android:fontFamily="@font/raleway"
+        android:hint="@string/warn_name"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:textSize="14sp"
+        android:textColorHint="#582349" />
+
+</RelativeLayout>

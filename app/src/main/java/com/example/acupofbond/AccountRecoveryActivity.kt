@@ -9,12 +9,12 @@ class AccountRecoveryActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_account_recovery)
 
-        clickListeners()
-    }
-
-    private fun clickListeners() {
-        backButton.setOnClickListener {
+        backBtn.setOnClickListener {
             finish()
+        }
+
+        nextBtn.setOnClickListener {
+            //TODO
         }
     }
 }
