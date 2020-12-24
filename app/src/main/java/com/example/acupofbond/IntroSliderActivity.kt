@@ -39,18 +39,6 @@ class IntroSliderActivity : AppCompatActivity() {
     }
 
     private fun registerListeners() {
-        vpIntroSlider.registerOnPageChangeCallback(object : ViewPager2.OnPageChangeCallback() {
-
-            override fun onPageSelected(position: Int) {
-                indicatorLayout.selectCurrentPosition(position)
-
-                if (position < fragmentList.lastIndex) {
-                    tvNext.text = "Next"
-                }
-            }
-        })
-
-
         tvNext.setOnClickListener {
             val position = vpIntroSlider.currentItem
 

@@ -63,7 +63,7 @@ class IndicatorLayout : LinearLayout {
     }
 
     fun selectCurrentPosition(position: Int) {
-        if (position >= 0 && position <= indicatorCount) {
+        if (position in 0..indicatorCount) {
 
             selectedPosition = position
 

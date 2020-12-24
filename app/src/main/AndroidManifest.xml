@@ -18,7 +18,7 @@
         <activity android:name=".PersonaJamActivity" />
         <activity android:name=".AccountRecoveryActivity" />
         <activity android:name=".SignInActivity" />
-        <activity android:name=".SignUpActivity" />
+        <activity android:name=".SignUpActivity"/>
         <activity android:name=".SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
