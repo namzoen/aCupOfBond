@@ -60,5 +60,9 @@
     <string name="a_cup_of_bond_logo">A Cup of Bond logo</string>
     <string name="phonebook">phonebook</string>
     <string name="next_symbol2"><![CDATA[>]]></string>
+    <string name="title_activity_home">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
 
 </resources>

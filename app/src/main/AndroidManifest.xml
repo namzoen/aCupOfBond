@@ -12,13 +12,16 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity
+            android:name=".HomeActivity"
+            android:label="@string/title_activity_home"></activity>
         <activity android:name=".NameActivity" />
         <activity android:name=".GenderActivity" />
         <activity android:name=".BirthdayActivity" />
         <activity android:name=".PersonaJamActivity" />
         <activity android:name=".AccountRecoveryActivity" />
         <activity android:name=".SignInActivity" />
-        <activity android:name=".SignUpActivity"/>
+        <activity android:name=".SignUpActivity" />
         <activity android:name=".SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

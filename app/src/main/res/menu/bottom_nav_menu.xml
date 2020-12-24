@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/home_menu"
+        android:title="Explore"
+        android:icon="@drawable/ic_aim"/>
+
+    <item
+        android:id="@+id/videocall_menu"
+        android:title="Video Call"
+        android:icon="@drawable/ic_videocall"/>
+
+    <item
+        android:id="@+id/chat_menu"
+        android:title="Chat"
+        android:icon="@drawable/ic_chat"/>
+    <item
+        android:id="@+id/account_menu"
+        android:title="Account"
+        android:icon="@drawable/ic_profile"/>
+
+</menu>
