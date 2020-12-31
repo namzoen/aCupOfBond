@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:background="@color/purple_500"
     android:gravity="center"
-    tools:context=".AddPhotosActivity">
+    >
 
     <View
         android:id="@+id/view"
@@ -100,4 +100,4 @@
         android:layout_marginLeft="270dp"
         android:layout_marginTop="350dp"
         android:background="@drawable/click_box"/>
-
+</RelativeLayout>

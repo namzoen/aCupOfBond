@@ -11,7 +11,7 @@ class PersonaJamActivity : AppCompatActivity() {
         setContentView(R.layout.activity_personajam)
 
         nextBtn.setOnClickListener {
-            // startActivity(Intent(this, HomeActivity::class.java))
+            startActivity(Intent(this, MainActivity::class.java))
         }
         backBtn.setOnClickListener {
             finish()

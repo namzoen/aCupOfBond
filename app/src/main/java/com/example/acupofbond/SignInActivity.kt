@@ -10,6 +10,9 @@ class SignInActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_sign_in)
 
+        signIn.setOnClickListener{
+            startActivity(Intent(this, MainActivity::class.java))
+        }
         linkSignUp.setOnClickListener {
             startActivity(Intent(this, SignUpActivity::class.java))
         }
