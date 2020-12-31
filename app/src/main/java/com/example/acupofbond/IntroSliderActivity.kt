@@ -23,7 +23,11 @@ class IntroSliderActivity : AppCompatActivity() {
         }
 
         setContentView(R.layout.activity_intro_slider)
+        val manager = PreferencesManager(this)
 
+        if (!manager.isFirstRun()) {
+            startActivity(Intent(this, SignInActivity::class.java))
+        }
         val adapter = IntroSliderAdapter(this)
         vpIntroSlider.adapter = adapter
 
