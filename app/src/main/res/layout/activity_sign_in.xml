@@ -118,26 +118,25 @@
         android:background="#ffffff" />
 
     <Button
-        android:layout_width="291dp"
-        android:layout_height="45dp"
+        android:layout_width="288dp"
+        android:layout_height="40dp"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="15dp"
         android:background="@drawable/text_input_box"
-        android:text="@string/log_in_with_google"
-        android:textSize="16sp"
-        android:textColor="#ffffff"
         android:fontFamily="@font/raleway_semibold"
-        android:paddingStart="14dp"
-        android:paddingEnd="5dp"
-        android:paddingTop="1dp" />
+        android:paddingTop="10dp"
+        android:text="@string/log_in_with_google"
+        android:textColor="#ffffff"
+        android:textSize="14sp"
+        android:gravity="center_horizontal"/>
 
     <ImageView
-        android:contentDescription="Google"
         android:layout_width="27dp"
         android:layout_height="27dp"
-        android:src="@drawable/google"
+        android:layout_marginStart="87dp"
         android:layout_marginTop="-37dp"
-        android:layout_marginStart="87dp" />
+        android:contentDescription="facebook"
+        android:src="@drawable/google" />
 
     <Button
         android:layout_width="291dp"
@@ -146,11 +145,11 @@
         android:layout_marginTop="15dp"
         android:background="@drawable/text_input_box"
         android:text="@string/log_in_with_facebook"
-        android:textSize="16sp"
+        android:textSize="14sp"
         android:textColor="#ffffff"
         android:fontFamily="@font/raleway_semibold"
-        android:paddingStart="30dp"
-        android:paddingTop="1dp" />
+        android:paddingTop="10dp"
+        android:gravity="center_horizontal"/>
 
     <ImageView
         android:contentDescription="facebook"
@@ -167,12 +166,11 @@
         android:layout_marginTop="15dp"
         android:background="@drawable/text_input_box"
         android:text="@string/log_in_with_phone_number"
-        android:textSize="16sp"
+        android:textSize="14sp"
         android:textColor="#ffffff"
         android:fontFamily="@font/raleway_semibold"
-        android:paddingStart="20dp"
-        android:paddingEnd="0dp"
-        android:paddingTop="1dp" />
+        android:paddingTop="10dp"
+        android:gravity="center_horizontal"/>
 
     <ImageView
         android:layout_width="30dp"
@@ -203,15 +201,15 @@
 
     <Button
         android:id="@+id/inTrouble"
-        android:layout_width="200dp"
+        android:layout_width="192dp"
         android:layout_height="45dp"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="-8dp"
         android:background="@drawable/text_input_box"
-        android:text="@string/trouble_signin"
-        android:textSize="16sp"
-        android:textColor="#ffffff"
         android:fontFamily="@font/raleway_semibold"
-        android:padding="10dp" />
+        android:padding="10dp"
+        android:text="@string/trouble_signin"
+        android:textColor="#ffffff"
+        android:textSize="14sp" />
 
 </LinearLayout>
