@@ -6,6 +6,7 @@ import android.widget.RadioButton
 import android.widget.RadioGroup
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import kotlinx.android.synthetic.main.activity_editprofile.*
 
 
 class EditProfileActivity : AppCompatActivity() {
@@ -18,6 +19,10 @@ class EditProfileActivity : AppCompatActivity() {
 
         radioGroup = findViewById(R.id.genderGroup)
         genderChoose(this)
+
+        backBtn.setOnClickListener{
+            finish()
+        }
     }
 
     private fun genderChoose (v: EditProfileActivity){

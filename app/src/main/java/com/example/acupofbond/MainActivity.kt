@@ -29,11 +29,6 @@ class MainActivity : AppCompatActivity() {
             true
         }
 
-        //Fragment profile
-        profileSettings.setOnClickListener{
-            startActivity(Intent(this, SettingsActivity::class.java))
-        }
-
     }
 
     private fun setCurrentFragment(fragment:Fragment)=
