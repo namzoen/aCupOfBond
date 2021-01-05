@@ -1,186 +1,220 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
     android:layout_height="match_parent"
     android:layout_width="match_parent"
     android:background="@color/white"
     android:gravity="center">
 
-    <View
-        android:id="@+id/view"
-        android:layout_width="720dp"
-        android:layout_height="550dp"
-        android:layout_marginStart="-2dp"
-        android:background="@drawable/rectangle2" />
-
     <Button
         android:id="@+id/backBtn"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:layout_marginStart="25dp"
-        android:layout_marginTop="-70dp"
+        android:background="@drawable/text_input_box"
+        android:fontFamily="@font/raleway"
+        android:gravity="center_horizontal"
         android:text="@string/back_symbol"
-        android:gravity="center_horizontal"
         android:textColor="@color/white"
-        android:fontFamily="@font/raleway"
         android:textSize="28sp"
-        android:background="@drawable/text_input_box"/>
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.074"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.042" />
 
     <TextView
+        android:id="@+id/settings"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="50dp"
-        android:layout_marginStart="60dp"
-        android:fontFamily="@font/raleway"
-        android:text="@string/phone_number"
-        android:textColor="@color/white"
-        android:textSize="15sp" />
+        android:fontFamily="@font/raleway_semibold"
+        android:text="@string/settings"
+        android:textColor="@color/black"
+        android:textSize="33sp"
+        app:layout_constraintBottom_toTopOf="@+id/relativeLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.098"
+        app:layout_constraintStart_toEndOf="@+id/backBtn"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.408" />
 
-    <EditText
-        android:layout_width="400dp"
-        android:layout_height="45dp"
-        android:layout_marginTop="75dp"
-        android:layout_marginLeft="50dp"
-        android:layout_marginRight="50dp"
-        android:background="@drawable/text_input_box"
-        android:fontFamily="@font/roboto"
-        android:gravity="center_horizontal"
-        android:text="@string/phone_number_sample"
-        android:padding="13dp"
-        android:textSize="16sp"
-        android:hint="@string/your_phone_number"
-        android:autofillHints="@string/phone_number"
-        android:inputType="number"
-        android:textColor="@color/white"/>
-
-    <TextView
-        android:layout_width="wrap_content"
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="50dp"
-        android:layout_marginStart="290dp"
-        android:fontFamily="@font/raleway"
-        android:text="@string/change"
-        android:textColor="@color/yellow"
-        android:textSize="15sp" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="150dp"
-        android:layout_marginStart="60dp"
-        android:fontFamily="@font/raleway"
-        android:text="@string/max_distance"
-        android:textColor="@color/white"
-        android:textSize="15sp" />
-
-    <TextView
-        android:layout_width="400dp"
-        android:layout_height="45dp"
-        android:layout_marginTop="175dp"
-        android:layout_marginLeft="50dp"
-        android:layout_marginRight="50dp"
-        android:background="@drawable/text_input_box"
-        android:fontFamily="@font/roboto"
-        android:gravity="center_horizontal"
-        android:text="@string/distance_sample"
-        android:padding="13dp"
-        android:textSize="16sp"
-        android:textColor="@color/white"/>
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="150dp"
-        android:layout_marginStart="280dp"
-        android:fontFamily="@font/raleway"
-        android:text="@string/kilometers"
-        android:textColor="@color/yellow"
-        android:textSize="15sp" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="250dp"
-        android:layout_marginStart="60dp"
-        android:fontFamily="@font/raleway"
-        android:text="@string/age_range"
-        android:textColor="@color/white"
-        android:textSize="15sp" />
-
-    <TextView
-        android:layout_width="400dp"
-        android:layout_height="45dp"
-        android:layout_marginTop="275dp"
-        android:layout_marginLeft="50dp"
-        android:layout_marginRight="50dp"
-        android:background="@drawable/text_input_box"
-        android:fontFamily="@font/roboto"
-        android:gravity="center_horizontal"
-        android:text="20"
-        android:padding="13dp"
-        android:textSize="16sp"
-        android:textColor="@color/white"/>
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="250dp"
-        android:layout_marginStart="330dp"
-        android:fontFamily="@font/raleway"
-        android:text="y.o."
-        android:textColor="@color/yellow"
-        android:textSize="15sp" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="350dp"
-        android:layout_marginStart="60dp"
-        android:fontFamily="@font/raleway"
-        android:text="@string/their_persona_jam"
-        android:textColor="@color/white"
-        android:textSize="15sp" />
-
-    <EditText
-        android:layout_width="400dp"
-        android:layout_height="45dp"
-        android:layout_marginTop="375dp"
-        android:layout_marginLeft="50dp"
-        android:layout_marginRight="50dp"
-        android:background="@drawable/text_input_box"
-        android:fontFamily="@font/roboto"
-        android:gravity="center_horizontal"
-        android:hint="@string/mbti_type"
-        android:autofillHints="MBTI type"
-        android:inputType="text"
-        android:text="@string/infp"
-        android:padding="13dp"
-        android:textSize="16sp"
-        android:textColor="@color/white"/>
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="350dp"
-        android:layout_marginStart="290dp"
-        android:fontFamily="@font/raleway"
-        android:text="@string/change"
-        android:textColor="@color/yellow"
-        android:textSize="15sp" />
-
-    <Button
-        android:id="@+id/signOut"
-        android:layout_width="110dp"
-        android:layout_height="40dp"
-        android:layout_marginTop="460dp"
-        android:layout_marginStart="155dp"
-        android:layout_gravity="center_vertical"
-        android:background="@drawable/button_accent"
-        android:fontFamily="@font/raleway_bold"
         android:padding="10dp"
-        android:paddingTop="8dp"
-        android:textSize="14sp"
-        android:text="@string/sign_out"
-        android:textColor="@color/white" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.726"
+        tools:layout_editor_absoluteX="0dp">
 
-</RelativeLayout>
+        <View
+            android:id="@+id/view"
+            android:layout_width="720dp"
+            android:layout_height="550dp"
+            android:layout_marginStart="-2dp"
+            android:background="@drawable/rectangle2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="50dp"
+            android:fontFamily="@font/raleway"
+            android:text="@string/phone_number"
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+
+        <EditText
+            android:layout_width="400dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="75dp"
+            android:layout_marginRight="50dp"
+            android:autofillHints="@string/phone_number"
+            android:background="@drawable/text_input_box"
+            android:fontFamily="@font/roboto"
+            android:gravity="center_horizontal"
+            android:hint="@string/your_phone_number"
+            android:inputType="number"
+            android:padding="13dp"
+            android:text="@string/phone_number_sample"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="290dp"
+            android:layout_marginTop="50dp"
+            android:fontFamily="@font/raleway"
+            android:text="@string/change"
+            android:textColor="@color/yellow"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="150dp"
+            android:fontFamily="@font/raleway"
+            android:text="@string/max_distance"
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="400dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="175dp"
+            android:layout_marginRight="50dp"
+            android:background="@drawable/text_input_box"
+            android:fontFamily="@font/roboto"
+            android:gravity="center_horizontal"
+            android:padding="13dp"
+            android:text="@string/distance_sample"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="280dp"
+            android:layout_marginTop="150dp"
+            android:fontFamily="@font/raleway"
+            android:text="@string/kilometers"
+            android:textColor="@color/yellow"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="250dp"
+            android:fontFamily="@font/raleway"
+            android:text="@string/age_range"
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="400dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="275dp"
+            android:layout_marginRight="50dp"
+            android:background="@drawable/text_input_box"
+            android:fontFamily="@font/roboto"
+            android:gravity="center_horizontal"
+            android:padding="13dp"
+            android:text="20"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="330dp"
+            android:layout_marginTop="250dp"
+            android:fontFamily="@font/raleway"
+            android:text="y.o."
+            android:textColor="@color/yellow"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="350dp"
+            android:fontFamily="@font/raleway"
+            android:text="@string/their_persona_jam"
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+
+        <EditText
+            android:layout_width="400dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="375dp"
+            android:layout_marginRight="50dp"
+            android:autofillHints="MBTI type"
+            android:background="@drawable/text_input_box"
+            android:fontFamily="@font/roboto"
+            android:gravity="center_horizontal"
+            android:hint="@string/mbti_type"
+            android:inputType="text"
+            android:padding="13dp"
+            android:text="@string/infp"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="290dp"
+            android:layout_marginTop="350dp"
+            android:fontFamily="@font/raleway"
+            android:text="@string/change"
+            android:textColor="@color/yellow"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/signOut"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="460dp"
+            android:layout_marginStart="100dp"
+            android:background="@drawable/button_logout"
+            android:fontFamily="@font/raleway_bold"
+            android:padding="10dp"
+            android:paddingTop="8dp"
+            android:text="@string/sign_out"
+            android:textColor="@color/white"
+            android:textSize="14sp" />
+
+    </RelativeLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

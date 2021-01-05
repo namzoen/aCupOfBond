@@ -1,9 +1,11 @@
 package com.example.acupofbond
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import kotlinx.android.synthetic.main.activity_main.*
+import kotlinx.android.synthetic.main.fragment_profile.*
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -25,6 +27,11 @@ class MainActivity : AppCompatActivity() {
                 R.id.profileTab->setCurrentFragment(fourthFragment)
             }
             true
+        }
+
+        //Fragment profile
+        profileSettings.setOnClickListener{
+            startActivity(Intent(this, SettingsActivity::class.java))
         }
 
     }
