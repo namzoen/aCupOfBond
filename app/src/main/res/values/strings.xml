@@ -94,5 +94,7 @@
     <string name="edit_profile">Edit Profile</string>
     <string name="enter_message">Enter message</string>
     <string name="send">SEND</string>
+    <string name="name1">Fahmi Abdillah</string>
+    <string name="name2">Moose</string>
 
 </resources>

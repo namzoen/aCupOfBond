@@ -3,7 +3,114 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/purple_500"
     tools:context=".ChatFragment">
 
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        android:layout_marginTop="20dp">
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="?android:attr/listPreferredItemHeight"
+            android:layout_marginBottom="15dp"
+            android:padding="6dip"
+            android:background="@color/cardview_shadow_end_color">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/icon1"
+                android:layout_width="60dp"
+                android:layout_height="fill_parent"
+                app:civ_border_width="2dp"
+                android:src="@drawable/defaultpic"
+                app:civ_border_color="#FF000000"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginRight="6dip"
+                android:contentDescription="TODO"/>
+
+            <TextView
+                android:id="@+id/secondLine1"
+                android:layout_width="fill_parent"
+                android:layout_height="26dip"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_toRightOf="@id/icon1"
+                android:ellipsize="marquee"
+                android:text="Description"
+                android:textSize="12sp"
+                android:fontFamily="@font/raleway"
+                android:textColor="@color/white"
+                android:singleLine="true" />
+
+            <TextView
+                android:id="@+id/firstLine1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_above="@id/secondLine1"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignWithParentIfMissing="true"
+                android:layout_toRightOf="@id/icon1"
+                android:gravity="center_vertical"
+                android:text="@string/name1"
+                android:fontFamily="@font/raleway_bold"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="?android:attr/listPreferredItemHeight"
+            android:padding="6dip" >
+
+            <ImageView
+                android:id="@+id/icon2"
+                android:layout_width="60dp"
+                android:layout_height="fill_parent"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginRight="6dip"
+                android:contentDescription="Picture"
+                android:src="@drawable/defaultpic" />
+
+            <TextView
+                android:id="@+id/secondLine2"
+                android:layout_width="fill_parent"
+                android:layout_height="26dip"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_toRightOf="@id/icon2"
+                android:ellipsize="marquee"
+                android:text="Description"
+                android:fontFamily="@font/raleway"
+                android:textColor="@color/white"
+                android:textSize="12sp"
+                android:singleLine="true" />
+
+            <TextView
+                android:id="@+id/firstLine2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_above="@id/secondLine2"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignWithParentIfMissing="true"
+                android:layout_toRightOf="@id/icon2"
+                android:gravity="center_vertical"
+                android:text="@string/name2"
+                android:fontFamily="@font/raleway_bold"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
 
 </FrameLayout>
