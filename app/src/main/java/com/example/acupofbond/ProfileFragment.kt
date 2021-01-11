@@ -2,7 +2,6 @@ package com.example.acupofbond
 
 import android.content.Intent
 import android.os.Bundle
-import android.provider.Settings
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -16,11 +15,16 @@ class ProfileFragment:Fragment(R.layout.fragment_profile) {
 
         val view: View = inflater!!.inflate(R.layout.fragment_profile, container, false)
         val settings = Intent (activity, SettingsActivity::class.java)
+        val addPhotos = Intent(activity, AddPhotosActivity::class.java)
         val profileEdit = Intent (activity, EditProfileActivity::class.java)
 
 
         view.profileSettings.setOnClickListener{
             activity?.startActivity(settings)
+        }
+
+        view.profileAdd.setOnClickListener{
+            activity?.startActivity(addPhotos)
         }
 
         view.profileEdit.setOnClickListener{
