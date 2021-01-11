@@ -55,7 +55,7 @@
             android:layout_width="720dp"
             android:layout_height="550dp"
             android:layout_marginStart="-2dp"
-            android:background="@drawable/rectangle2" />
+            android:background="@drawable/rectangle_purple" />
 
         <TextView
             android:layout_width="wrap_content"
