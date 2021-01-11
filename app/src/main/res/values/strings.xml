@@ -94,7 +94,9 @@
     <string name="edit_profile">Edit Profile</string>
     <string name="enter_message">Enter message</string>
     <string name="send">SEND</string>
-    <string name="name1">Fahmi Abdillah</string>
-    <string name="name2">Moose</string>
+    <string name="name1">June Karimun</string>
+    <string name="name2">Fahmi Abdillah</string>
+    <string name="chatgadung1">Kak, masih beli petis?</string>
+    <string name="chatgadung2">Haha iya.. Bosen banget pandemi</string>
 
 </resources>
