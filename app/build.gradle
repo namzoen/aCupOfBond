@@ -1,9 +1,20 @@
 plugins {
     id 'com.android.application'
     id 'kotlin-android'
+    id 'kotlin-android-extensions'
+}
+// Activation Android extension
+androidExtensions {
+    experimental = true
 }
 
 android {
+
+    // Activate Android databinding
+    dataBinding {
+        enabled = true
+    }
+
     compileSdkVersion 29
 
     defaultConfig {
@@ -29,6 +40,7 @@ android {
     kotlinOptions {
         jvmTarget = '1.8'
     }
+
 }
 
 dependencies {
@@ -54,4 +66,8 @@ dependencies {
     //firebase
     implementation 'com.google.firebase:firebase-core:16.0.4'
     implementation 'com.google.firebase:firebase-auth:16.0.4'
+    //groupie for chat list
+    implementation "com.xwray:groupie:2.7.0"
+    implementation "com.xwray:groupie-databinding:2.7.0"
+    implementation "com.xwray:groupie-kotlin-android-extensions:2.7.0"
 }
